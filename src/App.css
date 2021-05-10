@@ -1,18 +1,16 @@
 * {
+  box-sizing: none !important;
+  box-sizing: cover;
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
 }
 
 .appMain {
   margin-top: -50px;
-  height: 80rem;
+  margin-bottom: -50px;
+  height: 100vh;
   padding-top: 8%;
 } 
-
-.appMain > img {
-  height: 10rem;
-  width: 10rem;
-}
 
 .grid-container {
   width: 70%;

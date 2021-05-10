@@ -21,12 +21,12 @@ const Display = (props) => {
                                 <p className="abilitiesHeader" style={{ letterSpacing: '.2rem'}}>Abilities:</p>
                         {pokeInfo.abilities.map((item) => {
                             return(
-                                <p className="Ability" style={{ letterSpacing: '.2rem'}}>{item.ability.name}</p>
+                                <p className="Ability" style={{ letterSpacing: '.15rem'}}>{item.ability.name}</p>
                             )
                         })}
                     </div>                       
                     <div className="baseStats">
-                            <p class="stats" style={{ letterSpacing: '.2rem'}}>Base Experience: {pokeInfo.base_experience}</p>
+                            <p class="stats" style={{ letterSpacing: '.15rem'}}>Base Experience: {pokeInfo.base_experience}</p>
                     </div>
                 </div>
                 )

@@ -16,7 +16,10 @@ function App() {
         backgroundSize: 'cover',
         backgroundRepeat: 'repeat',
         width: '100vw',
-        height: '65rem'
+        minWidth: '20vw',
+        height: '106vh',
+        minHeight: '20vh',
+        padding: '10%'
   };
 
   return (      
